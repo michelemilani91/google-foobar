@@ -10,11 +10,13 @@ public class SolutionTest {
         final int result = Solution.solution("--->-><-><-->-");
         assertEquals(10, result);
     }
+
     @Test
     public void checkExample2() {
         final int result = Solution.solution(">----<");
         assertEquals(2, result);
     }
+
     @Test
     public void checkExample3() {
         final int result = Solution.solution("<<>><");
